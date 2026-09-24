@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Aritmatika Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kalkulator Sederhana</h1>
+
+        <div class="form-group">
+            <label for="bilangan1">Input Bilangan 1</label>
+            <input type="number" id="bilangan1">
+        </div>
+
+        <div class="form-group">
+            <label for="bilangan2">Input Bilangan 2</label>
+            <input type="number" id="bilangan2">
+        </div>
+
+        <div class="buttons">
+            <button onclick="hitung('+')">+</button>
+            <button onclick="hitung('-')">-</button>
+            <button onclick="hitung('*')">x</button>
+            <button onclick="hitung('/')">÷</button>
+        </div>
+
+        <div class="form-group">
+            <label for="output">Output</label>
+            <input type="text" id="output" readonly>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
